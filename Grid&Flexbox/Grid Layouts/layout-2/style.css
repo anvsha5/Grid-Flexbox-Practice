@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    grid-area: header;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+}
+
+.ads1{
+    grid-area: ads1;
+}
+
+.ads2{
+    grid-area: ads2;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 2fr 1fr 80px;
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "sidebar ads1 ads2"
+    "footer footer footer";
+    gap: 8px;
+    background-color: rgb(55, 52, 52);
+}

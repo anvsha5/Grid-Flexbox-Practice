@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 8px;
+    display: flex;
+    height: 100vh;
+    gap: 8px;
+    background-color: rgb(55, 52, 52);
+}
+
+.left {
+    flex: 3;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.right {
+    flex: 1;
+    background-color: lightcoral;
+
+}
+
+.nav {
+    flex: 1;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+}
+
+.mid {
+    flex: 4;
+    background-color: purple;
+}
+
+.bott {
+    flex: 5;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    gap: 8px;
+}
+
+.box1 {
+    flex: 1;
+    background-color: lightblue;
+}
+
+.box2 {
+    flex: 1;
+    background-color: lightgreen;
+}
+
+.a {
+    background-color: yellowgreen;
+    flex: 1;
+    height: 100%;
+}

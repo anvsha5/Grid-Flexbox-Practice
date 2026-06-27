@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 8px;
+    background-color: rgb(55, 52, 52);
+}
+
+.top {
+    flex: 1;
+    width: 100vw;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.link{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.circle{
+    height: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: indianred;
+    margin-left: 8px;
+}
+
+.box{
+    flex: 1;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+.profile{
+    height: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    margin-left:auto;
+    margin-right: 8px;
+}
+
+
+.mid {
+    flex: 8;
+    background-color: rgb(55, 52, 52);
+    gap: 8px;
+    display: flex;
+}
+
+.bott {
+    flex: 1;
+    background-color: purple;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: rgb(55, 52, 52);
+}
+
+.left1 {
+    flex: 5;
+    background-color: rgb(155, 60, 60);
+}
+
+.left2 {
+    flex: 3;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    gap: 8px;
+}
+
+.right {
+    flex: 1;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box1 {
+    flex: 1;
+    background-color: rgb(60, 60, 155);
+}
+
+.box2 {
+    flex: 1;
+    background-color: rgb(231, 221, 105);
+}
+
+.right1 {
+    flex: 5;
+    background-color: rgb(55, 52, 52);
+    display: flex;
+    gap: 8px;
+}
+
+.right2 {
+    flex: 3;
+    background-color:burlywood;
+    
+}
+
+.r1 {
+    flex: 1;
+    background-color:darkblue;
+}
+
+.r2 {
+    flex: 1;
+    background-color:darkslategray;
+}
